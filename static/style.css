@@ -1,0 +1,47 @@
+body {
+  background-image: url("../static/image/background.jpg");
+  background-size: cover;
+}
+.container {
+  background-color: aliceblue;
+  height: 650px;
+  margin-top: 50px;
+  border-radius: 20px;
+   max-height: 100vh; /* Adjust as needed, relative to the viewport height */
+    overflow-y: auto;
+}
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+}
+.form-check-label {
+  padding-left: 10px;
+  padding-top: 2px;
+  font-size: 18px;
+}
+
+.list {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  border-radius: 20%;
+}
+.list-group-item {
+  padding-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#plus_btn {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 25px;
+  padding-right:25px;
+  font-size: 40px;
+  font-weight: bolder;
+      position: fixed; /* Fixes the button to a specific location on the screen */
+    bottom: 60px; /* Distance from the bottom of the viewport */
+    right: 230px; /* Distance from the right of the viewport */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+}
